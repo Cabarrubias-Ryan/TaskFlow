@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "TaskFlow",
-    "slug": "TaskFlow",
+    "slug": "tasklist",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cabarrubias1002.tasklist"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3109c978-7826-41cc-8825-04a3b534d93b"
+      }
+    },
+    "owner": "cabarrubias1002"
   }
 }
